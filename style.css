@@ -20,17 +20,17 @@ section {
   border: 1px solid #dde3ee;
   border-radius: 12px;
   padding: 24px;
-  margin-bottom: 20px;
 }
 
-img {
+.profile-img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
-a {
+.github-link {
   display: inline-block;
   background-color: #2b59c3;
   color: #ffffff;
@@ -40,6 +40,31 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.github-link:hover {
   background-color: #1e3f8a;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+  }
 }
