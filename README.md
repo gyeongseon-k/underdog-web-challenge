@@ -37,4 +37,11 @@ https://gyeongseon-k.github.io/underdog-web-challenge/
 - 내 컴퓨터에서 보기: 저장소를 내려받은 뒤(GitHub의 Code > Download ZIP 또는 `git clone https://github.com/gyeongseon-k/underdog-web-challenge.git`), 폴더 안의 `index.html`을 브라우저로 열면 됩니다.
 
 ## 작업하며 배운 점
-(작성 예정)
+- **Git과 GitHub**: Git은 내 컴퓨터에서 파일의 변경 이력을 기록하는 도구이고, GitHub는 그 기록을 인터넷에 올려 보관하고 공유하는 서비스라는 것을 알게 되었습니다. 매일 add → commit → push 순서로 작업 내용을 기록했습니다.
+- **HTML은 구조, CSS는 모양**: head는 브라우저를 위한 문서 정보이고 header는 화면에 보이는 머리말이라는 차이를 배웠고, section과 ul · li로 내용을 주제별로 나누었습니다.
+- **margin과 padding**: padding은 테두리 안쪽 여백, margin은 테두리 바깥쪽 여백이라는 것을 값을 직접 바꿔 보며 이해했습니다.
+- **태그 선택자와 클래스 선택자**: img 같은 태그 선택자는 그 태그 전체에 적용되어, 이미지나 링크를 추가하면 같은 스타일이 모두 적용될 수 있다는 것을 알게 되었습니다. 그래서 class를 붙이고 .profile-img처럼 클래스 선택자로 필요한 요소만 꾸미도록 바꾸었습니다.
+- **태그는 의미, 배치는 CSS**: header, section 같은 태그는 역할만 나타내고 실제 위치는 CSS가 정한다는 것을 배웠습니다. Flexbox와 미디어 쿼리로 HTML은 그대로 두고 PC에서는 가로, 모바일에서는 세로로 배치되도록 만들었습니다.
+- **배포**: GitHub Pages를 이용해 내 컴퓨터에만 있던 페이지를 누구나 접속할 수 있는 주소로 공개했습니다.
+
+처음 접하는 개념이 많았지만, 코드를 그대로 쓰기보다 왜 이렇게 쓰는지 이해하고 설명할 수 있도록 공부했습니다. 다음에는 JavaScript와 Next.js를 배워 보고 싶습니다.
